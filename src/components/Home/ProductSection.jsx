@@ -2,24 +2,30 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Star, ShoppingCart, Save } from "lucide-react";
 
-/* PRODUCT IMAGES */
-import item1 from "../assets/items/Shecare.png";
-import item2 from "../assets/items/DiabicCare.png";
-import item3 from "../assets/items/Cholesterol.png";
-import item4 from "../assets/items/Shapefix.png";
+
+/* ITEMS */
+import item1 from "../../assets/items/Shecare.png";
+import item2 from "../../assets/items/DiabicCare.png";
+import item3 from "../../assets/items/Cholesterol.png";
+import item4 from "../../assets/items/Shapefix.png";
 
 /* CATEGORY IMAGES */
-import diabetic from "../assets/category/Diabetic_Wellness.png";
-import digestive from "../assets/category/Digestive_Wellness.png";
-import pain from "../assets/category/Pain_reliever.png";
-import women from "../assets/category/women_wellness.png";
-import skin from "../assets/category/Skin_Wellness.png";
-import cardiac from "../assets/category/Cardiac_Wellness.png";
-import cover1 from "../assets/items/cover1.png";
-import cover2 from "../assets/items/cover2.png";
-import cover3 from "../assets/items/cover3.png";
-import cover4 from "../assets/items/cover4.png";
+import diabetic from "../../assets/category/Diabetic_Wellness.png";
+import digestive from "../../assets/category/Digestive_Wellness.png";
+import pain from "../../assets/category/Pain_reliever.png";
+import women from "../../assets/category/women_wellness.png";
+import skin from "../../assets/category/Skin_Wellness.png";
+import cardiac from "../../assets/category/Cardiac_Wellness.png";
+
+/* COVERS */
+import cover1 from "../../assets/items/cover1.png";
+import cover2 from "../../assets/items/cover2.png";
+import cover3 from "../../assets/items/cover3.png";
+import cover4 from "../../assets/items/cover4.png";
+
+/* COMPONENT */
 import CategoryCircleUI from "./CategoryCircleUI";
+
 
 /* ---------------- CATEGORIES ---------------- */
 

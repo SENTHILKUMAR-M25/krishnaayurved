@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Search, User, ShoppingBag, ChevronDown } from "lucide-react";
-import logo from "../assets/logo.png";
-import { categories, products } from "../data/Data";
+import logo from "../../assets/logo.png";
+import { categories, products } from "../../data/Data";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
 
@@ -43,7 +44,7 @@ export default function Navbar() {
         <li>Offers</li>
         <li>Consult by Vaidya</li>
         <li>Rewards</li>
-        <li>Blog</li>
+        <Link to="/blog">Blog</Link>
 
       </ul>
 

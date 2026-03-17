@@ -1,14 +1,20 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import diabetic from "../../assets/category/Diabetic_Wellness.png";
+import immunity from "../../assets/category/Immunity_Wellness.png";
+import digestive from "../../assets/category/Digestive_Wellness.png";
+import painReliever from "../../assets/category/Pain_reliever.png";
+import cardiac from "../../assets/category/Cardiac_Wellness.png";
+import skin from "../../assets/category/Skin_Wellness.png";
+import bloodPurifier from "../../assets/category/Blood_Purity.png";
 
-// Mock data based on your screenshot
 const wellnessCategories = [
-  { id: 1, name: "Immunity Wellness", image: '../assets/category/Immunity_Wellness.png' },
-  { id: 2, name: "Digestive Wellness", image: "../assets/category/Digestive_Wellness.png" },
-  { id: 3, name: "Pain Reliever", image: "../assets/category/Pain_reliever.png" },
-  { id: 4, name: "Cardiac Wellness", image: "../assets/category/Cardiac_Wellness.png" },
-  { id: 5, name: "Skin Wellness", image: "../assets/category/Skin_Wellness.png" },
-  { id: 6, name: "Blood Purifier", image: "../assets/category/Blood_Purifier.png" },
+  { id: 1, name: "Immunity Wellness", image: immunity },
+  { id: 2, name: "Digestive Wellness", image: digestive },
+  { id: 3, name: "Pain Reliever", image: painReliever },
+  { id: 4, name: "Cardiac Wellness", image: cardiac },
+  { id: 5, name: "Skin Wellness", image: skin },
+  { id: 6, name: "Blood Purifier", image: bloodPurifier },
 ];
 
 const CategoryCircleUI = () => {

@@ -2,8 +2,8 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight, MessageCircle } from "lucide-react";
 
-import hero1 from "../assets/Shecare.png";
-import hero2 from "../assets/diabetic.png";
+import hero1 from "../../assets/Shecare.png";
+import hero2 from "../../assets/diabetic.png";
 
 export default function Hero() {
 

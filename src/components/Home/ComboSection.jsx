@@ -134,7 +134,7 @@ const ProductCard = ({ product }) => {
   );
 };
 
-export default function ComboSection() {
+ function ComboSection() {
   return (
     <section className="bg-gray-50 py-12 px-4 md:px-10">
       <div className="max-w-7xl mx-auto">
@@ -159,3 +159,5 @@ export default function ComboSection() {
     </section>
   );
 }
+
+export default ComboSection;
